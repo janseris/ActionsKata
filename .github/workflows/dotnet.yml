@@ -1,7 +1,7 @@
 on: push
 jobs:
   welcome:
-    name: Welcome job
     runs-on: ubuntu-latest
     steps:
-    - run: echo: 'welcome'
+    - name: Welcome 
+      run: echo welcome
