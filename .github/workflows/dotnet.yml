@@ -4,4 +4,4 @@ jobs:
     name: Welcome job
     runs-on: ubuntu-latest
     steps:
-    - echo: 'welcome'
+    - run: echo: 'welcome'
